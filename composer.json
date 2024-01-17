@@ -1,0 +1,15 @@
+{
+    "name": "camille/my-book-nook",
+    "autoload": {
+        "psr-4": {
+            "Camille\\MyBookNook\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lilraccoon15",
+            "email": "camille.lefort15@gmail.com"
+        }
+    ],
+    "require": {}
+}
