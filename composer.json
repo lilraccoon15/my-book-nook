@@ -2,7 +2,7 @@
     "name": "camille/my-book-nook",
     "autoload": {
         "psr-4": {
-            "Camille\\MyBookNook\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
