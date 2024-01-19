@@ -3,10 +3,10 @@
         <i class="fa-solid fa-book"></i>
     </div>
     <div class="headerTitle">
-        <span>My Book Nook</span>
+        <span><a href="/">My Book Nook</a></span>
     </div>
 </div>
 
 <div class="headerRight">
-    <i class="fa-solid fa-bars"></i>
+    <?php require(ROOT."/src/views/shared/_nav.php") ?>
 </div>

@@ -11,5 +11,8 @@
             "email": "camille.lefort15@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "scripts": {
+        "sass": "sass --watch public/css/style.scss public/css/style.css"
+    }
 }

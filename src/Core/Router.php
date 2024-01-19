@@ -9,23 +9,39 @@ class Router
 {
     public function run()
     {
-        // var_dump(isset($_SERVER["PATH_INFO"]));
         $requestUri = $_SERVER["REQUEST_URI"];
-        // var_dump($requestUri);
-        // die();
-        // $path = isset($_SERVER["PATH_INFO"]) ? $_SERVER["PATH_INFO"] : "/";
-
         $path = $requestUri ?: "/";
+        $pathExplode = explode('/', $path);
+        // var_dump($pathExplode);
+        // $controllerName = $pathExplode[1] ? ucwords($pathExplode[1]) : "Home";
+        $controllerName = '';
 
-        // var_dump($path);
+        if (!empty($pathExplode[1])) {
+            $controllerName .= ucwords($pathExplode[1]);
+        } else {
+            $controllerName .= 'Home';
+        }
 
-        $pathExplod = explode('/', $path);
-        $controller = $pathExplod[1] ? ucwords($pathExplod[1]) : "Home";
-        // var_dump($controller);
-        $controller = "App\Controller\\".$controller."Controller";
-        $method = $pathExplod[2] ?? "index";
+        for ($i = 2; $i < count($pathExplode); $i++) {
+            $controllerName .= ucwords($pathExplode[$i]);
+        }
 
-        $controller = new $controller;
-        $controller->$method();
+        $method = "index";
+
+        if (!empty($pathExplode[3])) {
+            $method = $pathExplode[3];
+        }
+
+        $additionalParams = array_slice($pathExplode, 4);
+
+        $params = [];
+        for ($i = 0; $i < count($additionalParams); $i += 2) {
+            $paramName = $additionalParams[$i];
+            $paramValue = $additionalParams[$i + 1] ?? null;
+            $params[$paramName] = $paramValue;
+        }
+
+        $controller = new \App\Controller\Controller();
+        $controller->handleRequest($controllerName, $method, $params);
     }
 }

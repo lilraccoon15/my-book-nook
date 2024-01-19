@@ -311,10 +311,16 @@
 }
 
 
-$light-color:#E5EBEF; 
-$light-yellow-color:#FFE5BB;
-$middle-color: #6C8AA8;
-$dark-color: #22263A;
+// $light-color:#E5EBEF; 
+// $light-yellow-color:#FFE5BB;
+// $middle-color: #6C8AA8;
+// $dark-color: #22263A;
+$light-color:#F2E1D1; 
+$light-middle-color:#D4C7B4;
+$light-dark-color: #B38A54;
+$middle-color: #7B7458;
+$middle-dark-color: #854627;
+$dark-color: #2D2D23;
 $header-foooter-height: 8vh;
 $width-100: 100%;
 $margin: 3em;
@@ -338,7 +344,7 @@ header, footer {
     display:flex;
     align-items: center;
     justify-content: space-between;
-    color:$light-yellow-color;
+    color:$light-color;
 }
 
 header {
