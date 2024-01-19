@@ -1,0 +1,369 @@
+@font-face {
+    font-family: 'Spectral';
+    src: url('../fonts/Spectral-Bold.eot');
+    src: url('../fonts/Spectral-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spectral-Bold.woff2') format('woff2'),
+        url('../fonts/Spectral-Bold.woff') format('woff'),
+        url('../fonts/Spectral-Bold.ttf') format('truetype'),
+        url('../fonts/Spectral-Bold.svg#Spectral-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('../fonts/Spectral-BoldItalic.eot');
+    src: url('../fonts/Spectral-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spectral-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Spectral-BoldItalic.woff') format('woff'),
+        url('../fonts/Spectral-BoldItalic.ttf') format('truetype'),
+        url('../fonts/Spectral-BoldItalic.svg#Spectral-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('../fonts/Spectral-ExtraBold.eot');
+    src: url('../fonts/Spectral-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spectral-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Spectral-ExtraBold.woff') format('woff'),
+        url('../fonts/Spectral-ExtraBold.ttf') format('truetype'),
+        url('../fonts/Spectral-ExtraBold.svg#Spectral-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('../fonts/Spectral-ExtraBoldItalic.eot');
+    src: url('../fonts/Spectral-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spectral-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Spectral-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/Spectral-ExtraBoldItalic.ttf') format('truetype'),
+        url('../fonts/Spectral-ExtraBoldItalic.svg#Spectral-ExtraBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('../fonts/Spectral-ExtraLight.eot');
+    src: url('../fonts/Spectral-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spectral-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Spectral-ExtraLight.woff') format('woff'),
+        url('../fonts/Spectral-ExtraLight.ttf') format('truetype'),
+        url('../fonts/Spectral-ExtraLight.svg#Spectral-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('../fonts/Spectral-ExtraLightItalic.eot');
+    src: url('../fonts/Spectral-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spectral-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Spectral-ExtraLightItalic.woff') format('woff'),
+        url('../fonts/Spectral-ExtraLightItalic.ttf') format('truetype'),
+        url('../fonts/Spectral-ExtraLightItalic.svg#Spectral-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('../fonts/Spectral-Italic.eot');
+    src: url('../fonts/Spectral-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spectral-Italic.woff2') format('woff2'),
+        url('../fonts/Spectral-Italic.woff') format('woff'),
+        url('../fonts/Spectral-Italic.ttf') format('truetype'),
+        url('../fonts/Spectral-Italic.svg#Spectral-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('../fonts/Spectral-Light.eot');
+    src: url('../fonts/Spectral-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spectral-Light.woff2') format('woff2'),
+        url('../fonts/Spectral-Light.woff') format('woff'),
+        url('../fonts/Spectral-Light.ttf') format('truetype'),
+        url('../fonts/Spectral-Light.svg#Spectral-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('../fonts/Spectral-LightItalic.eot');
+    src: url('../fonts/Spectral-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spectral-LightItalic.woff2') format('woff2'),
+        url('../fonts/Spectral-LightItalic.woff') format('woff'),
+        url('../fonts/Spectral-LightItalic.ttf') format('truetype'),
+        url('../fonts/Spectral-LightItalic.svg#Spectral-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('../fonts/Spectral-Medium.eot');
+    src: url('../fonts/Spectral-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spectral-Medium.woff2') format('woff2'),
+        url('../fonts/Spectral-Medium.woff') format('woff'),
+        url('../fonts/Spectral-Medium.ttf') format('truetype'),
+        url('../fonts/Spectral-Medium.svg#Spectral-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('../fonts/Spectral-MediumItalic.eot');
+    src: url('../fonts/Spectral-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spectral-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Spectral-MediumItalic.woff') format('woff'),
+        url('../fonts/Spectral-MediumItalic.ttf') format('truetype'),
+        url('../fonts/Spectral-MediumItalic.svg#Spectral-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('../fonts/Spectral-Regular.eot');
+    src: url('../fonts/Spectral-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spectral-Regular.woff2') format('woff2'),
+        url('../fonts/Spectral-Regular.woff') format('woff'),
+        url('../fonts/Spectral-Regular.ttf') format('truetype'),
+        url('../fonts/Spectral-Regular.svg#Spectral-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Black.eot');
+    src: url('../fonts/Lato-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Black.woff2') format('woff2'),
+        url('../fonts/Lato-Black.woff') format('woff'),
+        url('../fonts/Lato-Black.ttf') format('truetype'),
+        url('../fonts/Lato-Black.svg#Lato-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('../fonts/Spectral-SemiBold.eot');
+    src: url('../fonts/Spectral-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spectral-SemiBold.woff2') format('woff2'),
+        url('../fonts/Spectral-SemiBold.woff') format('woff'),
+        url('../fonts/Spectral-SemiBold.ttf') format('truetype'),
+        url('../fonts/Spectral-SemiBold.svg#Spectral-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('../fonts/Spectral-SemiBoldItalic.eot');
+    src: url('../fonts/Spectral-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spectral-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Spectral-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/Spectral-SemiBoldItalic.ttf') format('truetype'),
+        url('../fonts/Spectral-SemiBoldItalic.svg#Spectral-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-BlackItalic.eot');
+    src: url('../fonts/Lato-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Lato-BlackItalic.woff') format('woff'),
+        url('../fonts/Lato-BlackItalic.ttf') format('truetype'),
+        url('../fonts/Lato-BlackItalic.svg#Lato-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Bold.eot');
+    src: url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato-Bold.woff') format('woff'),
+        url('../fonts/Lato-Bold.ttf') format('truetype'),
+        url('../fonts/Lato-Bold.svg#Lato-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-BoldItalic.eot');
+    src: url('../fonts/Lato-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Lato-BoldItalic.woff') format('woff'),
+        url('../fonts/Lato-BoldItalic.ttf') format('truetype'),
+        url('../fonts/Lato-BoldItalic.svg#Lato-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Italic.eot');
+    src: url('../fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Italic.woff2') format('woff2'),
+        url('../fonts/Lato-Italic.woff') format('woff'),
+        url('../fonts/Lato-Italic.ttf') format('truetype'),
+        url('../fonts/Lato-Italic.svg#Lato-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Light.eot');
+    src: url('../fonts/Lato-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Light.woff2') format('woff2'),
+        url('../fonts/Lato-Light.woff') format('woff'),
+        url('../fonts/Lato-Light.ttf') format('truetype'),
+        url('../fonts/Lato-Light.svg#Lato-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-LightItalic.eot');
+    src: url('../fonts/Lato-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-LightItalic.woff2') format('woff2'),
+        url('../fonts/Lato-LightItalic.woff') format('woff'),
+        url('../fonts/Lato-LightItalic.ttf') format('truetype'),
+        url('../fonts/Lato-LightItalic.svg#Lato-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Regular.eot');
+    src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('woff'),
+        url('../fonts/Lato-Regular.ttf') format('truetype'),
+        url('../fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('../fonts/Lato-HairlineItalic.eot');
+    src: url('../fonts/Lato-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-HairlineItalic.woff2') format('woff2'),
+        url('../fonts/Lato-HairlineItalic.woff') format('woff'),
+        url('../fonts/Lato-HairlineItalic.ttf') format('truetype'),
+        url('../fonts/Lato-HairlineItalic.svg#Lato-HairlineItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('../fonts/Lato-Hairline.eot');
+    src: url('../fonts/Lato-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Hairline.woff2') format('woff2'),
+        url('../fonts/Lato-Hairline.woff') format('woff'),
+        url('../fonts/Lato-Hairline.ttf') format('truetype'),
+        url('../fonts/Lato-Hairline.svg#Lato-Hairline') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+// $light-color:#E5EBEF; 
+// $light-yellow-color:#FFE5BB;
+// $middle-color: #6C8AA8;
+// $dark-color: #22263A;
+$light-color:#F2E1D1; 
+$light-middle-color:#D4C7B4;
+$light-dark-color: #B38A54;
+$middle-color: #7B7458;
+$middle-dark-color: #854627;
+$dark-color: #2D2D23;
+$header-foooter-height: 8vh;
+$width-100: 100%;
+$margin: 3em;
+$spectral-font: 'Spectral', serif;
+$lato-font: 'Lato', sans-serif;
+
+body {
+    font-family: $lato-font;
+    background-color: $light-color;
+    color:$dark-color;
+}
+
+header, main, footer {
+    padding-left:$margin;
+    padding-right:$margin;
+}
+
+header, footer {
+    background-color: $middle-color;
+    height:$header-foooter-height;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color:$light-color;
+}
+
+header {
+    .headerLeft {
+        width:43%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: $spectral-font;
+    }
+}
+
+main {
+    padding-top:$margin;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width: $width-100;
+    box-sizing: border-box;
+}
