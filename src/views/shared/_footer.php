@@ -1,15 +1,23 @@
 <div class="homeIcon">
-    <i class="fa-solid fa-house"></i>
+    <a href="/">
+        <i class="fa-solid fa-house"></i>
+    </a>
 </div>
 
 <div class="searchIcon">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <a href="/search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </a>
 </div>
 
 <div class="bookIcon">
-    <i class="fa-solid fa-book-open"></i>
+    <a href="/library">
+        <i class="fa-solid fa-book-open"></i>
+    </a>
 </div>
 
 <div class="profileIcon">
-    <i class="fa-regular fa-user"></i>
+    <a href="/">
+        <i class="fa-regular fa-user"></i>
+    </a>
 </div>
