@@ -190,9 +190,23 @@
   font-style: normal;
   font-display: swap;
 }
+/***************** GENERAL & LAYOUT **************************/
+a {
+  color: #763E22;
+  text-decoration: none;
+}
+
+.active {
+  display: block;
+}
+
+.notActive {
+  display: none;
+}
+
 body {
   font-family: "Lato", sans-serif;
-  background-color: #F2E1D1;
+  background-color: #FCF2E9;
   color: #2D2D23;
 }
 
@@ -202,14 +216,18 @@ header, main, footer {
 }
 
 header, footer {
-  background-color: #7B7458;
   height: 8vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #F2E1D1;
+}
+header a, footer a {
+  color: #2D2D23;
 }
 
+header {
+  border-bottom: solid 1px #DBD2C4;
+}
 header .headerLeft {
   width: 43%;
   display: flex;
@@ -223,10 +241,25 @@ main {
 }
 
 footer {
+  border-top: solid 1px #DBD2C4;
   position: absolute;
   bottom: 0;
   width: 100%;
   box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+nav .navLinks {
+  position: absolute;
+  top: 8vh;
+  right: 3em;
+}
+nav .navLinks ul {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
